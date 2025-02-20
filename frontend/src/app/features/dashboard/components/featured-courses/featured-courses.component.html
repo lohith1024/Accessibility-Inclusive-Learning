@@ -1,0 +1,21 @@
+<section class="featured-section">
+  <h2>Featured Courses</h2>
+  <div class="courses-grid">
+    <div *ngFor="let course of courses" class="course-card">
+      <div class="image-container">
+        <img [src]="course.image" [alt]="course.title" />
+      </div>
+      <div class="card-content">
+        <div class="card-header">
+          <span class="category">{{ course.category }}</span>
+          <span class="students">{{ course.students }} students</span>
+        </div>
+        <h3>{{ course.title }}</h3>
+        <div class="card-footer">
+          <span class="level">{{ course.level }}</span>
+          <a href="#" class="learn-more">Learn more →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

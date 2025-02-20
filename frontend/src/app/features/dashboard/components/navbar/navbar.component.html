@@ -1,0 +1,25 @@
+<nav class="nav-container">
+  <div class="nav-content">
+    <div class="nav-left">
+      <a routerLink="/" class="brand">
+        <i class="fas fa-book-reader"></i>
+        InclusiveLearn
+      </a>
+    </div>
+    <div class="nav-center">
+      <div class="search-container">
+        <i class="fas fa-search search-icon"></i>
+        <input
+          type="text"
+          placeholder="Search courses..."
+          class="search-input"
+          (input)="onSearch($event)"
+        />
+      </div>
+    </div>
+    <div class="nav-right">
+      <a routerLink="/auth/login" class="nav-link">Sign In</a>
+      <a routerLink="/auth/register" class="nav-link register">Get Started</a>
+    </div>
+  </div>
+</nav>
