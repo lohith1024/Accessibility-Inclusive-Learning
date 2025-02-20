@@ -1,0 +1,62 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InclusiveLearnAPI", "InclusiveLearnAPI\InclusiveLearnAPI.csproj", "{30F5261F-5D23-4C97-B64B-94E5E590ED70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{B89EE2F8-6B3E-4B2D-8F0A-3B139F4A3C46}"
+	ProjectSection(SolutionItems) = preProject
+		frontend\.editorconfig = frontend\.editorconfig
+		frontend\.gitignore = frontend\.gitignore
+		frontend\angular.json = frontend\angular.json
+		frontend\package-lock.json = frontend\package-lock.json
+		frontend\package.json = frontend\package.json
+		frontend\README.md = frontend\README.md
+		frontend\tsconfig.app.json = frontend\tsconfig.app.json
+		frontend\tsconfig.json = frontend\tsconfig.json
+		frontend\tsconfig.spec.json = frontend\tsconfig.spec.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4A0C7C8-3E1F-4A8B-B7D4-6C8D1A99E8F3}"
+	ProjectSection(SolutionItems) = preProject
+		frontend\src\index.html = frontend\src\index.html
+		frontend\src\main.ts = frontend\src\main.ts
+		frontend\src\styles.scss = frontend\src\styles.scss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{E9B6C7D8-3E1F-4A8B-B7D4-6C8D1A99E8F5}"
+	ProjectSection(SolutionItems) = preProject
+		frontend\src\assets\.gitkeep = frontend\src\assets\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{F5A7B3E9-D2C1-4B3A-B7D8-5A99E4E8F5D4}"
+	ProjectSection(SolutionItems) = preProject
+		frontend\src\app\app.component.html = frontend\src\app\app.component.html
+		frontend\src\app\app.component.scss = frontend\src\app\app.component.scss
+		frontend\src\app\app.component.ts = frontend\src\app\app.component.ts
+		frontend\src\app\app.config.ts = frontend\src\app\app.config.ts
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30F5261F-5D23-4C97-B64B-94E5E590ED70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F5261F-5D23-4C97-B64B-94E5E590ED70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F5261F-5D23-4C97-B64B-94E5E590ED70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F5261F-5D23-4C97-B64B-94E5E590ED70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4A0C7C8-3E1F-4A8B-B7D4-6C8D1A99E8F3} = {B89EE2F8-6B3E-4B2D-8F0A-3B139F4A3C46}
+		{F5A7B3E9-D2C1-4B3A-B7D8-5A99E4E8F5D4} = {D4A0C7C8-3E1F-4A8B-B7D4-6C8D1A99E8F3}
+		{E9B6C7D8-3E1F-4A8B-B7D4-6C8D1A99E8F5} = {D4A0C7C8-3E1F-4A8B-B7D4-6C8D1A99E8F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1234A678-1234-1234-1234-123456789ABC}
+	EndGlobalSection
+EndGlobal
