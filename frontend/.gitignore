@@ -1,0 +1,105 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Angular
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+/src/environments/*.js
+/src/environments/*.js.map
+.env
+.env.*
+!.env.example
+
+# Compiled output
+*.js.map
+*.css.map
+
+# Test coverage
+/coverage
+/.nyc_output
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# Angular specific
+/src/app/**/*.js
+/src/app/**/*.js.map
+/src/app/**/*.d.ts
+
+# Features
+/src/app/features/**/*.js
+/src/app/features/**/*.js.map
+
+# Core
+/src/app/core/**/*.js
+/src/app/core/**/*.js.map
+
+# Components
+/src/app/components/**/*.js
+/src/app/components/**/*.js.map
+
+# Services
+/src/app/services/**/*.js
+/src/app/services/**/*.js.map
+
+# Models
+/src/app/models/**/*.js
+/src/app/models/**/*.js.map
+
+# Routes
+/src/app/*.js
+/src/app/*.js.map
+
+# Config files
+/src/app/*.config.js
+/src/app/*.config.js.map
+
+# Interceptors
+/src/app/core/interceptors/*.js
+/src/app/core/interceptors/*.js.map
+
+# Generated files
+*.ngfactory.ts
+*.ngstyle.ts
+*.ngsummary.json

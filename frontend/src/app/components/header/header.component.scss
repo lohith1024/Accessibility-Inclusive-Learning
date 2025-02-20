@@ -1,0 +1,64 @@
+.main-header {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+nav {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #3498db;
+    }
+
+    &.active {
+      color: #3498db;
+      background: rgba(52, 152, 219, 0.1);
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+    }
+  }
+
+  button {
+    background: transparent;
+    border: 1px solid #3498db;
+    color: #3498db;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      background: #3498db;
+      color: white;
+    }
+  }
+} 
